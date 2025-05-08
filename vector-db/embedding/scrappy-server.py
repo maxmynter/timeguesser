@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 COLLECTION_NAME = "historical_events"
-MODEL_NAME = "all-MiniLM-L6-v2"  # Lightweight model
+MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 VECTOR_SIZE = 384  # Embedding dimension
 INPUT_FILE = "enhanced_events.json"  # Default input file
 
@@ -366,4 +366,3 @@ def get_stats():
 # Run the server
 if __name__ == "__main__":
     uvicorn.run("scrappy-server:app", host="0.0.0.0", port=8000, reload=True)
-

@@ -29,7 +29,7 @@ BATCH_SIZE = 100  # Process this many events at once
 
 # Use a lightweight model for embeddings
 # This model is relatively small but performs well for semantic search
-MODEL_NAME = "all-MiniLM-L6-v2"
+MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
 
 def parse_arguments():
