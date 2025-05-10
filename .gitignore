@@ -2,3 +2,4 @@
 *.png
 qdrant_storage/
 __pycache__/
+.env
